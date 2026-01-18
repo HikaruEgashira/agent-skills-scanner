@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 368
+- Total skills scanned: 372
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -518,6 +518,12 @@ Last updated: 2026-01-18T16:00:00.000Z
 367. pyopenms (davila7/claude-code-templates) - ✅ Clean (mass spectrometry data analysis, proteomics/metabolomics workflows)
 368. gwas-database (davila7/claude-code-templates) - ✅ Clean (NHGRI-EBI GWAS Catalog API access for genetic epidemiology)
 
+### Lifestyle/Math Category (New - 2026-01-18)
+369. math-intuition-builder (parcadei/Continuous-Claude-v3) - ✅ Clean (mathematical understanding through examples and visualization)
+370. rudin-real-complex-analysis (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MEDIUM - Bash access for Z3/SymPy math tools)
+371. fields (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MEDIUM - Bash access for abstract algebra computations)
+372. propositional-logic (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MEDIUM - Bash access for logic verification)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -590,3 +596,4 @@ Categories scanned in this iteration:
 - Framework Internals (5 skills)
 - Academic (6 skills)
 - Research (2 skills)
+- Lifestyle/Math (4 skills)
