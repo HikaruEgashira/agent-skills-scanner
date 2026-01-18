@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 655
+- Total skills scanned: 665
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -971,6 +971,18 @@ Last updated: 2026-01-19T01:00:00.000Z
 654. ghe-thread-manager (aiskillstore/marketplace) - ✅ Clean (Note: MEDIUM - GitHub issue transcription, bash script execution, mandatory notifications)
 655. sca-trivy (aiskillstore/marketplace) - ✅ Clean (Trivy SCA/container scanning, SBOM generation, CI/CD pipeline integration, compliance mapping)
 
+### LLVM & Compiler Infrastructure Skills (New - 2026-01-19)
+656. llvm-security (gmh5225/awesome-llvm-security) - ✅ Clean (Sanitizers, CFI, exploit mitigation, hardening flags, symbolic execution)
+657. cargo-llvm-cov (laurigates/claude-plugins) - ✅ Clean (Rust code coverage with LLVM instrumentation, CI/CD integration)
+658. llvm-obfuscation (gmh5225/awesome-llvm-security) - ✅ Clean (OLLVM variants, control flow flattening, string encryption, anti-analysis)
+659. binary-lifting (gmh5225/awesome-llvm-security) - ✅ Clean (RetDec, McSema, revng - binary-to-IR for security analysis)
+660. static-analysis (gmh5225/awesome-llvm-security) - ✅ Clean (Dataflow analysis, pointer analysis, taint tracking, source-sink model)
+661. llvm-tooling (gmh5225/awesome-llvm-security) - ✅ Clean (Clang plugins, LibTooling, LLDB extensions, clangd/LSP integration)
+662. dynamic-instrumentation (gmh5225/awesome-llvm-security) - ✅ Clean (QBDI, Instrew, taint tracking, syscall monitoring, eBPF integration)
+663. llvm-learning (gmh5225/awesome-llvm-security) - ✅ Clean (Learning paths, Kaleidoscope tutorial, IR basics, pass development)
+664. compiler-development (gmh5225/awesome-llvm-security) - ✅ Clean (Frontend/backend design, IR generation, JIT via ORC, pass pipelines)
+665. llvm-optimization (gmh5225/awesome-llvm-security) - ✅ Clean (New Pass Manager, vectorization, LTO, Alive2 verification)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -1068,3 +1080,4 @@ Categories scanned in this iteration:
 - Python/Django Backend (3 skills)
 - PHP/WordPress (4 skills)
 - Go & Multi-Language Tools (7 skills)
+- LLVM & Compiler Infrastructure (10 skills)
