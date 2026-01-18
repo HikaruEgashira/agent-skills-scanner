@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T15:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 193
+- Total skills scanned: 196
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -271,6 +271,11 @@ Last updated: 2026-01-18T15:30:00.000Z
 192. prowler-compliance (prowler-cloud/prowler) - ✅ Clean
 193. debug (elie222/inbox-zero) - ✅ Clean (Note: HIGH - shell injection risk, local dev only, design consideration)
 
+### IDE Plugins Category (New - 2026-01-18)
+194. clojure-write (metabase/metabase) - ✅ Clean
+195. generate-translations (payloadcms/payload) - ✅ Clean (Note: HIGH - wildcard Bash, OPENAI_KEY env, design consideration)
+196. copilot (mlflow/mlflow) - ✅ Clean (Note: MEDIUM - wildcard Bash, input handling)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -309,3 +314,4 @@ Categories scanned in this iteration:
 - DeFi (7 skills)
 - Web3 Tools (6 skills)
 - Monitoring (6 skills)
+- IDE Plugins (3 skills)
