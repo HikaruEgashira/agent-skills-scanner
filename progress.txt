@@ -1313,3 +1313,11 @@ Categories scanned in this iteration:
 821. dev-api-design (vasilyu1983/AI-Agents-public) - ✅ Clean (OWASP API Top 10, AuthN/Z boundaries)
 822. api-design (cosmix/loom) - ✅ Clean (REST/GraphQL/RPC patterns, versioning)
 823. api-design-patterns (ilude/claude-code-config) - ✅ Clean (Query depth limiting, RBAC/ABAC patterns)
+
+### Performance/Optimization Skills (New - 2026-01-19)
+824. profiling-optimization (aj-geddes/useful-ai-prompts) - ✅ Clean (CPU profiling, flame graphs, P50/P95/P99)
+825. m10-performance (ZhangHanDong/rust-skills) - ✅ Clean (Rust optimization, criterion benchmarks)
+826. performance-engineering (outfitter-dev/agents) - ✅ Clean (Measure-first approach, latency metrics)
+827. perf (johnlindquist/claude) - ✅ Clean (Node.js profiling, Lighthouse audits)
+828. go-optimization (geoffjay/claude-plugins) - ✅ Clean (Go pprof, memory management, sync.Pool)
+829. optimizing-r (jeremy-allen/claude-skills) - ✅ Clean (R profiling, parallel processing, data.table)
