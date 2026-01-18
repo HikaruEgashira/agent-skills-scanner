@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T19:00:00.000Z
+Last updated: 2026-01-18T20:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 458
+- Total skills scanned: 461
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.6% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -677,6 +677,11 @@ Last updated: 2026-01-18T19:00:00.000Z
 456. security-requirement-extraction (wshobson/agents) - ✅ Clean (Note: MODERATE - input validation guidance)
 457. stride-analysis-patterns (wshobson/agents) - ✅ Clean (Threat modeling methodology)
 458. threat-mitigation-mapping (wshobson/agents) - ✅ Clean (Note: MEDIUM - control library verification)
+
+### CLI Tools Extended (New - 2026-01-18)
+459. blucli (clawdbot/clawdbot) - ✅ Clean (BluOS device control CLI)
+460. oracle (clawdbot/clawdbot) - ✅ Clean (Security-aware LLM prompt bundling tool)
+461. peekaboo (clawdbot/clawdbot) - ✅ Clean (Note: MEDIUM - UI automation requires careful permissions)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
