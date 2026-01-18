@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T00:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 483
+- Total skills scanned: 489
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.7% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -716,6 +716,14 @@ Last updated: 2026-01-19T00:30:00.000Z
 481. pymc-bayesian-modeling (davila7/claude-code-templates) - ✅ Clean (Bayesian modeling with PyMC, MCMC inference)
 482. senior-prompt-engineer (davila7/claude-code-templates) - ✅ Clean (Prompt engineering patterns, LLM optimization)
 483. modal (davila7/claude-code-templates) - ✅ Clean (Serverless GPU deployment, proper secret management guidance)
+
+### Enterprise Security Category (New - 2026-01-19)
+484. senior-secops (davila7/claude-code-templates) - ✅ Clean (SecOps automation, vulnerability management, compliance checking)
+485. isms-audit-expert (davila7/claude-code-templates) - ✅ Clean (ISO 27001 ISMS auditing, security control assessment)
+486. senior-security (davila7/claude-code-templates) - ✅ Clean (Security engineering, threat modeling, pentest automation)
+487. information-security-manager-iso27001 (davila7/claude-code-templates) - ✅ Clean (Healthcare ISMS, HIPAA compliance, medical device security)
+488. data-privacy-compliance (davila7/claude-code-templates) - ✅ Clean (GDPR/CCPA/HIPAA compliance, privacy-by-design patterns)
+489. senior-devops (davila7/claude-code-templates) - ✅ Clean (CI/CD pipelines, Terraform IaC, deployment automation)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
