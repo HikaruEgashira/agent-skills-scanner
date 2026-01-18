@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 801
+- Total skills scanned: 804
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1283,3 +1283,8 @@ Categories scanned in this iteration:
 799. security-testing (aj-geddes/useful-ai-prompts) - ✅ Clean (SAST/DAST/IAST, Semgrep, SonarQube)
 800. security-reviewer (Jeffallan/claude-skills) - ✅ Clean (5-phase workflow, no production testing without auth)
 801. security-report (aiskillstore/marketplace) - ✅ Clean (DOCX report generation, CVSS scoring)
+
+### Swift/iOS/Apple Skills (New - 2026-01-19)
+802. apple-docs (robbyt/claude-skills) - ✅ Clean (Apple Developer Documentation MCP, WWDC content)
+803. swift-best-practices (secondsky/claude-skills) - ✅ Clean (Swift 6+, SwiftLens MCP, concurrency patterns)
+804. senior-ios (rickydwilson-dcs/claude-skills) - ✅ Clean (Swift 5.9+, SwiftUI, UIKit, privacy manifest)
