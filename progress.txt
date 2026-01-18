@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 511
+- Total skills scanned: 517
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.7% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -756,6 +756,14 @@ Last updated: 2026-01-19T01:00:00.000Z
 509. ui-design-system (davila7/claude-code-templates) - ✅ Clean (Design tokens, component documentation, accessibility standards)
 510. generate-image (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - API key management via .env, external API calls to OpenAI/Stability)
 511. scientific-schematics (davila7/claude-code-templates) - ✅ Clean (Nano Banana Pro AI diagram generation, scientific visualization)
+
+### LLM & AI Extended Category (New - 2026-01-19)
+512. notion-knowledge-capture (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - MCP/Notion integration, conversation data transfer, OAuth auth)
+513. senior-computer-vision (davila7/claude-code-templates) - ✅ Clean (CV engineering patterns, encryption/PII handling, GDPR/CCPA compliance)
+514. notion-meeting-intelligence (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - MCP/Notion/Codex integration, organizational data access)
+515. scikit-learn (davila7/claude-code-templates) - ✅ Clean (Classical ML documentation, proper data leakage prevention guidance)
+516. using-superpowers (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - Skill framework priority rules, legitimate skill management pattern)
+517. nowait (davila7/claude-code-templates) - ✅ Clean (NOWAIT inference optimization, inference-time only, safe design)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
