@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T15:30:00.000Z
+Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 207
+- Total skills scanned: 218
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -293,6 +293,19 @@ Last updated: 2026-01-18T15:30:00.000Z
 206. wiring (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MEDIUM - shell script patterns, but educational)
 207. instrument-data-to-allotrope (anthropics/life-sciences) - ✅ Clean (Note: MEDIUM - pip flag, but educational)
 
+### Computational Chemistry Category (New - 2026-01-18)
+208. medchem (davila7/claude-code-templates) - ✅ Clean (medicinal chemistry filters)
+209. hmdb-database (davila7/claude-code-templates) - ✅ Clean (Human Metabolome Database access)
+210. dnanexus-integration (davila7/claude-code-templates) - ✅ Clean (cloud genomics platform)
+211. omero-integration (davila7/claude-code-templates) - ✅ Clean (microscopy data management)
+212. clinical-reports (davila7/claude-code-templates) - ✅ Clean (Note: MODERATE - PHI handling concerns, but proper HIPAA guidance)
+213. clinpgx-database (davila7/claude-code-templates) - ✅ Clean (pharmacogenomics data)
+214. reactome-database (davila7/claude-code-templates) - ✅ Clean (pathway analysis)
+215. clinicaltrials-database (davila7/claude-code-templates) - ✅ Clean (ClinicalTrials.gov API)
+216. scvi-tools (davila7/claude-code-templates) - ✅ Clean (single-cell omics analysis)
+217. hypogenic (davila7/claude-code-templates) - ✅ Clean (hypothesis generation)
+218. scientific-brainstorming (davila7/claude-code-templates) - ✅ Clean (research ideation)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -335,3 +348,4 @@ Categories scanned in this iteration:
 - CMS Platforms (3 skills)
 - Payment (3 skills)
 - Lab Tools (5 skills)
+- Computational Chemistry (11 skills)
