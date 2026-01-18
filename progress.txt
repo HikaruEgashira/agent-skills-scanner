@@ -1321,3 +1321,8 @@ Categories scanned in this iteration:
 827. perf (johnlindquist/claude) - ✅ Clean (Node.js profiling, Lighthouse audits)
 828. go-optimization (geoffjay/claude-plugins) - ✅ Clean (Go pprof, memory management, sync.Pool)
 829. optimizing-r (jeremy-allen/claude-skills) - ✅ Clean (R profiling, parallel processing, data.table)
+
+### Code Review/Refactoring Skills (New - 2026-01-19)
+830. clean-code-reviewer (aiskillstore/marketplace) - ✅ Clean (Clean Code principles, read-only analysis)
+831. backend-architect (aiskillstore/marketplace) - ✅ Clean (DDD, SOLID, P0/P1/P2 prioritization)
+832. specs-dev (vaayne/cc-plugins) - ✅ Clean (Review-gated workflow, session tracking)
