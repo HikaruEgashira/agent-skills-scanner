@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T15:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 202
+- Total skills scanned: 207
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -286,6 +286,13 @@ Last updated: 2026-01-18T15:30:00.000Z
 201. paypal-integration (wshobson/agents) - ✅ Clean (Note: HIGH - credential placeholder pattern, but educational)
 202. stripe-integration (wshobson/agents) - ✅ Clean (Note: MEDIUM - hardcoded key placeholders, but educational)
 
+### Lab Tools Category (New - 2026-01-18)
+203. pylabrobot (davila7/claude-code-templates) - ✅ Clean
+204. benchling-integration (davila7/claude-code-templates) - ✅ Clean
+205. opentrons-integration (davila7/claude-code-templates) - ✅ Clean
+206. wiring (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MEDIUM - shell script patterns, but educational)
+207. instrument-data-to-allotrope (anthropics/life-sciences) - ✅ Clean (Note: MEDIUM - pip flag, but educational)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -327,3 +334,4 @@ Categories scanned in this iteration:
 - IDE Plugins (3 skills)
 - CMS Platforms (3 skills)
 - Payment (3 skills)
+- Lab Tools (5 skills)
