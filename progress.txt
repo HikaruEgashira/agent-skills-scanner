@@ -1338,3 +1338,11 @@ Categories scanned in this iteration:
 836. error-logger (aiskillstore/marketplace) - ✅ Clean (Structured JSON logging, correlation IDs)
 837. api-error-handling (aj-geddes/useful-ai-prompts) - ✅ Clean (Standardized error responses)
 838. logging-best-practices (aj-geddes/useful-ai-prompts) - ✅ Clean (PII protection, log rotation)
+
+### Security/Vulnerability/Audit Skills (New - 2026-01-19)
+839. codeql (trailofbits/skills) - ✅ Clean (CodeQL static analysis, taint tracking, data flow)
+840. performing-security-audits (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (OWASP, compliance checking)
+841. scanning-database-security (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (PostgreSQL, MySQL, MongoDB)
+842. scanning-container-security (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Docker, Kubernetes)
+843. plugin-auditor (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Plugin security assessment)
+844. performing-security-code-review (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (SQL injection, XSS detection)
