@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 350
+- Total skills scanned: 354
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -490,6 +490,12 @@ Last updated: 2026-01-18T16:00:00.000Z
 349. build (iPlug2/iPlug2) - ✅ Clean (xcodebuild/Visual Studio build)
 350. setup-deps (iPlug2/iPlug2) - ✅ Clean (Note: LOW - script verification needed)
 
+### Business Apps Category (New - 2026-01-18)
+351. notion-spec-to-implementation (davila7/claude-code-templates) - ✅ Clean (Note: MODERATE - MCP auth, prompt injection risk)
+352. product-manager-toolkit (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - command injection, data handling)
+353. agile-product-owner (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - input validation needed)
+354. product-prd (baptisteArno/typebot.io) - ✅ Clean (PRD template generation)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -557,3 +563,4 @@ Categories scanned in this iteration:
 - Media (8 skills)
 - Git Workflows (5 skills)
 - Package & Distribution (9 skills)
+- Business Apps (4 skills)
