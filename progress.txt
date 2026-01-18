@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T13:00:00.000Z
+Last updated: 2026-01-18T13:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 112
+- Total skills scanned: 123
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -164,6 +164,21 @@ Last updated: 2026-01-18T13:00:00.000Z
 111. e2e-testing-patterns (wshobson/agents) - ✅ Clean
 112. code-review-excellence (wshobson/agents) - ✅ Clean
 
+### System Administration Category (New - 2026-01-18)
+113. system-info (agno-agi/agno) - ✅ Clean
+114. on-call-handoff-patterns (wshobson/agents) - ✅ Clean
+115. incident-runbook-templates (wshobson/agents) - ✅ Clean
+116. bats-testing-patterns (wshobson/agents) - ✅ Clean
+117. omarchy (basecamp/omarchy) - ✅ Clean
+
+### Architecture Patterns Category (New - 2026-01-18)
+118. dispatching-parallel-agents (obra/superpowers) - ✅ Clean
+119. architecture-decision-records (wshobson/agents) - ✅ Clean
+120. architecture-patterns (wshobson/agents) - ✅ Clean
+121. dotnet-backend-patterns (wshobson/agents) - ✅ Clean
+122. microservices-patterns (wshobson/agents) - ✅ Clean
+123. pci-compliance (wshobson/agents) - ✅ Clean
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -194,5 +209,5 @@ All scanned skills appear to be legitimate and do not contain obvious security v
 The skills from major open source projects follow best practices.
 
 Categories scanned in this iteration:
-- Productivity & Integration (7 skills)
-- Debugging (7 skills)
+- System Administration (5 skills)
+- Architecture Patterns (6 skills)
