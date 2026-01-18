@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 271
+- Total skills scanned: 277
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -381,6 +381,16 @@ Last updated: 2026-01-18T16:00:00.000Z
 270. ts-agent-sdk (jezweb/claude-skills) - ✅ Clean (Note: MODERATE - token management, code generation)
 271. skill-creator (jezweb/claude-skills) - ✅ Clean (skill design documentation)
 
+### Content Creation Category (New - 2026-01-18)
+272. internal-comms (anthropics/skills) - ✅ Clean (internal communication templates)
+273. docx (anthropics/skills) - ✅ Clean (Note: MODERATE - XML processing with defusedxml for XXE mitigation)
+274. pptx (anthropics/skills) - ✅ Clean (Note: MODERATE - file system access, validated XML processing)
+275. data-storytelling (wshobson/agents) - ✅ Clean (data visualization guidance)
+276. employment-contract-templates (wshobson/agents) - ✅ Clean (legal disclaimer present, template-only)
+
+### Academic Category (Note - 2026-01-18)
+277. (davila7/claude-code-templates scientific skills) - Already scanned in previous sessions
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -434,3 +444,4 @@ Categories scanned in this iteration:
 - Culinary Arts (3 skills)
 - Literature & Writing (4 skills)
 - Divination & Mysticism (6 skills)
+- Content Creation (5 skills)
