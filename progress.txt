@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T17:00:00.000Z
+Last updated: 2026-01-18T17:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 381
+- Total skills scanned: 385
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.5% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -549,6 +549,12 @@ Last updated: 2026-01-18T17:00:00.000Z
 380. shopify (mrgoonie/claudekit-skills) - ✅ Clean (Note: MEDIUM - npm/CLI tool usage for Shopify theme development)
 381. shopping-admin-browser-automation (MassLab-SII/open-agent-skills) - ✅ Clean (Note: MEDIUM - Playwright browser automation with credential handling)
 
+### Automation & Mobile Category (New - 2026-01-18)
+382. run-nx-generator (nrwl/nx) - ✅ Clean (Note: MEDIUM - Bash/MCP access for Nx monorepo generators)
+383. android (mozilla-firefox/firefox) - ✅ Clean (Android build workflow guide for Firefox)
+384. mobile-security (gmh5225/awesome-game-security) - ✅ Clean (Note: HIGH design consideration - game security research with hacking/cheating techniques, educational content)
+385. page-and-route (OneKeyHQ/app-monorepo) - ✅ Clean (detailed page routing documentation for OneKey crypto wallet app)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -626,3 +632,4 @@ Categories scanned in this iteration:
 - Gaming/Design (3 skills)
 - Business (2 skills)
 - E-commerce (2 skills)
+- Automation & Mobile (4 skills)
