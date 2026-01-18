@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 252
+- Total skills scanned: 258
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -354,6 +354,14 @@ Last updated: 2026-01-18T16:00:00.000Z
 251. woocommerce-markdown (woocommerce/woocommerce) - ⚠️ 404 - Path not found
 252. stripe-best-practices (anthropics/claude-plugins-official) - ⚠️ 404 - Path not found
 
+### Astronomy & Physics Category (New - 2026-01-18)
+253. astropy (davila7/claude-code-templates) - ✅ Clean (astronomy library documentation)
+254. exploratory-data-analysis (davila7/claude-code-templates) - ✅ Clean (Note: MODERATE - file path handling, but legitimate)
+255. box-least-squares (benchflow-ai/skillsbench) - ✅ Clean (exoplanet detection)
+256. transit-least-squares (benchflow-ai/skillsbench) - ✅ Clean (transit detection)
+257. data-stats-analysis (Starlitnightly/omicverse) - ⚠️ 404 - Path not found
+258. pycse (jkitchin/pycse) - ⚠️ 404 - Path not found
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -403,3 +411,4 @@ Categories scanned in this iteration:
 - Scientific Computing (9 skills)
 - Domain & DNS Tools (8 skills)
 - E-commerce Development (6 skills)
+- Astronomy & Physics (6 skills)
