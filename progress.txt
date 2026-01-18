@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 782
+- Total skills scanned: 790
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1256,3 +1256,15 @@ Categories scanned in this iteration:
 780. event-driven (cosmix/loom) - ✅ Clean (Kafka/RabbitMQ, CQRS, Saga, Event Sourcing)
 781. spring-boot-full-stack (mduongvandinh/skills-java-spring) - ✅ Clean (Java Spring Boot, OAuth2/JWT, RBAC)
 782. messaging (pluginagentmarketplace/custom-plugin-backend) - ✅ Clean (RabbitMQ/Kafka/SQS, DLQ, exponential backoff)
+
+### Container/DevOps Skills (New - 2026-01-19)
+783. containerizing-applications (aiskillstore/marketplace) - ✅ Clean (Docker Hardened Images, 95% fewer CVEs)
+784. container-orchestration (aiskillstore/marketplace) - ✅ Clean (Docker/K8s, non-root, secretKeyRef)
+785. devops-deployment (yonatangross/skillforge-claude-plugin) - ✅ Clean (CI/CD, External Secrets Operator, Trivy)
+786. trivy (mauromedda/agent-toolkit) - ✅ Clean (Pre-commit vulnerability scanning, severity policy)
+
+### Observability/Monitoring Skills (New - 2026-01-19)
+787. monitoring-expert (Jeffallan/claude-skills) - ✅ Clean (Prometheus, Grafana, ELK, OpenTelemetry)
+788. monitoring-observability (ahmedasmar/devops-claude-skills) - ✅ Clean (Datadog, CloudWatch, PII redaction)
+789. grey-haven-observability-engineering (greyhaven-ai/claude-code-config) - ✅ Clean (SLO, distributed tracing)
+790. observability-with-prometheus-grafana (bobmatnyc/mcp-skillset) - ✅ Clean (PromQL, alerting, dashboards)
