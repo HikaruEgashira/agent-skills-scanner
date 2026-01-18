@@ -1288,3 +1288,13 @@ Categories scanned in this iteration:
 802. apple-docs (robbyt/claude-skills) - ✅ Clean (Apple Developer Documentation MCP, WWDC content)
 803. swift-best-practices (secondsky/claude-skills) - ✅ Clean (Swift 6+, SwiftLens MCP, concurrency patterns)
 804. senior-ios (rickydwilson-dcs/claude-skills) - ✅ Clean (Swift 5.9+, SwiftUI, UIKit, privacy manifest)
+
+### Database/Cloud/Python Skills (New - 2026-01-19)
+805. cloudflare-hyperdrive (secondsky/claude-skills) - ✅ Clean (Workers-to-database, TLS enforced, secure credentials)
+806. python-security-scan (sugarforever/01coder-agent-skills) - ✅ Clean (OWASP Top 10, Python security audit, CVE scanning)
+807. python-patterns (Zate/cc-plugins) - ✅ Clean (Python 3.10+ patterns, type hints, pytest)
+808. sentry-python-setup (getsentry/sentry-agent-skills) - ✅ Clean (Error monitoring, DSN via env vars)
+809. python-development (Gaku52/claude-code-skills) - ✅ Clean (FastAPI/Django/Flask guide, JWT best practices)
+810. python-best-practices (eous/dotclaude) - ✅ Clean (Code style, async patterns, project structure)
+811. python-code-review (Olino3/forge) - ✅ Clean (5-step review workflow, security-focused)
+812. python-backend (yurake/skills) - ✅ Clean (Python backend agent, SQLAlchemy, Celery)
