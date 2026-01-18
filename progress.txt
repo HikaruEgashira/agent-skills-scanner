@@ -1298,3 +1298,10 @@ Categories scanned in this iteration:
 810. python-best-practices (eous/dotclaude) - ✅ Clean (Code style, async patterns, project structure)
 811. python-code-review (Olino3/forge) - ✅ Clean (5-step review workflow, security-focused)
 812. python-backend (yurake/skills) - ✅ Clean (Python backend agent, SQLAlchemy, Celery)
+
+### Cloud/Terraform/IaC Skills (New - 2026-01-19)
+813. terraform-module-library (wshobson/agents) - ✅ Clean (Reusable Terraform modules, input validation)
+814. generating-infrastructure-as-code (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Multi-platform IaC generator)
+815. cloud-infrastructure (aiskillstore/marketplace) - ✅ Clean (AWS/Azure/GCP patterns, remote state guidance)
+816. ops-devops-platform (vasilyu1983/AI-Agents-public) - ✅ Clean (GitOps, Trivy scanning, eBPF monitoring)
+817. terraform (cosmix/loom) - ✅ Clean (Terraform/OpenTofu, state encryption, least privilege)
