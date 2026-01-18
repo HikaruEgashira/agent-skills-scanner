@@ -1,0 +1,52 @@
+id: prompt-injection
+name: Prompt Injection Detection
+description: Detects direct prompt injection attempts in SKILL.md files
+priority: P0
+patterns:
+  - id: ignore-previous
+    pattern: "ignore\\s+(all\\s+)?previous\\s+instructions?"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: attempt to ignore previous instructions"
+
+  - id: you-are-now
+    pattern: "you\\s+are\\s+now"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: role manipulation attempt"
+
+  - id: system-tag
+    pattern: "<system>"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: fake system tag detected"
+
+  - id: new-instructions
+    pattern: "new\\s+instructions?\\s*:"
+    flags: "i"
+    severity: high
+    message: "Prompt injection: attempt to inject new instructions"
+
+  - id: forget-previous
+    pattern: "forget\\s+(everything|all|what)"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: attempt to make agent forget context"
+
+  - id: override-rules
+    pattern: "(override|bypass|ignore)\\s+(safety|security|rules?)"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: attempt to override safety rules"
+
+  - id: act-as
+    pattern: "act\\s+as\\s+(if\\s+)?(you\\s+are|an?\\s+)"
+    flags: "i"
+    severity: high
+    message: "Prompt injection: role impersonation attempt"
+
+  - id: developer-mode
+    pattern: "(developer|admin|root|sudo)\\s+mode"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: privilege escalation attempt"
