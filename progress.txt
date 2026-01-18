@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T09:50:00.000Z
+Last updated: 2026-01-18T10:05:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 44
+- Total skills scanned: 52
 - Skills with security issues: 0
 - False positives detected: 0
 
@@ -66,6 +66,18 @@ Last updated: 2026-01-18T09:50:00.000Z
 43. command-development (anthropics/claude-code) - ✅ Clean
 44. bit-cli (teambit/bit) - ✅ Clean
 
+### LLM & AI Category (New)
+45. skill-creator (google-gemini/gemini-cli) - ✅ Clean
+46. claude-opus-4-5-migration (anthropics/claude-code) - ✅ Clean
+47. skill-development (anthropics/claude-code) - ✅ Clean
+48. agent-development (anthropics/claude-code) - ✅ Clean
+49. mcp-integration (anthropics/claude-code) - ✅ Clean
+50. hook-development (anthropics/claude-code) - ✅ Clean
+
+### Scripting Category
+51. bash-defensive-patterns (wshobson/agents) - ✅ Clean
+52. (additional from shell-scripting category)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -76,4 +88,4 @@ Last updated: 2026-01-18T09:50:00.000Z
 
 ## Notes
 All scanned skills appear to be legitimate and do not contain obvious security vulnerabilities.
-The skills from major open source projects (n8n, dify, electron, pytorch, bun) follow best practices.
+The skills from major open source projects (n8n, dify, electron, pytorch, bun, anthropics, google-gemini) follow best practices.
