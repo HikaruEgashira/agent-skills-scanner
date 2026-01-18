@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T15:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 196
+- Total skills scanned: 199
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -276,6 +276,11 @@ Last updated: 2026-01-18T15:30:00.000Z
 195. generate-translations (payloadcms/payload) - ✅ Clean (Note: HIGH - wildcard Bash, OPENAI_KEY env, design consideration)
 196. copilot (mlflow/mlflow) - ✅ Clean (Note: MEDIUM - wildcard Bash, input handling)
 
+### CMS Platforms Category (New - 2026-01-18)
+197. doc-coauthoring (anthropics/skills) - ✅ Clean
+198. writing-rules (anthropics/claude-code) - ✅ Clean (security-enhancing guardrails)
+199. plugin-settings (anthropics/claude-code) - ✅ Clean (Note: MEDIUM - shell injection examples, but educational)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -315,3 +320,4 @@ Categories scanned in this iteration:
 - Web3 Tools (6 skills)
 - Monitoring (6 skills)
 - IDE Plugins (3 skills)
+- CMS Platforms (3 skills)
