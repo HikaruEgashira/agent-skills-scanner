@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 553
+- Total skills scanned: 559
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.8% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -820,6 +820,14 @@ Last updated: 2026-01-19T01:00:00.000Z
 551. ms-agent-framework-rag (xuzeyu91/WebCode) - ✅ Clean (Note: MODERATE - C# RAG framework, lacks explicit auth/input validation guidance)
 552. azure-auth (jezweb/claude-skills) - ✅ Clean (Note: MEDIUM - Entra ID auth with PKCE, localStorage XSS risks documented)
 553. reviewing-dotnet-code (aiskillstore/marketplace) - ✅ Clean (.NET/C# code review patterns, Microsoft conventions, no executable code)
+
+### AWS & Cloud Security Category (New - 2026-01-19)
+554. prowler-sdk-check (prowler-cloud/prowler) - ✅ Clean (Prowler security check creation across AWS/Azure/GCP/K8s, standardized severity levels)
+555. prowler-test-sdk (prowler-cloud/prowler) - ✅ Clean (Prowler testing patterns with provider isolation: moto for AWS, MagicMock for others)
+556. cloud-penetration-testing (zebbern/claude-code-guide) - ✅ Clean (Note: Multi-cloud pentest guide, requires written authorization, legitimate security testing)
+557. aws-penetration-testing (zebbern/claude-code-guide) - ✅ Clean (Note: AWS-specific red team ops, authorization required, IAM/metadata exploitation)
+558. sns-topic-config (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - aws:* wildcard Bash permissions, auto-trigger on keywords)
+559. security-group-generator (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - aws:* wildcard permissions, IaC generation)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
