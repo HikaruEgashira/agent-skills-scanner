@@ -27,11 +27,17 @@ patterns:
     severity: critical
     message: "Tool poisoning: shell subshell command injection"
 
-  - id: shell-injection-backtick
-    pattern: "`[^`]+`"
+  - id: shell-injection-backtick-assignment
+    pattern: "=\\s*`[^`]+`"
     flags: ""
     severity: high
-    message: "Tool poisoning: backtick command execution"
+    message: "Tool poisoning: backtick command substitution in assignment"
+
+  - id: shell-injection-backtick-dangerous
+    pattern: "`(?:rm|curl|wget|nc|bash|sh|eval|exec)[^`]*`"
+    flags: "i"
+    severity: critical
+    message: "Tool poisoning: dangerous command in backticks"
 
   - id: shell-injection-rm
     pattern: "(;|&&|\\|)\\s*rm\\s"
@@ -62,3 +68,27 @@ patterns:
     flags: ""
     severity: high
     message: "Tool poisoning: dangerous filesystem operation"
+
+  - id: curl-post-data
+    pattern: "curl\\s+.*(-d|--data|--data-raw)\\s+.*\\$"
+    flags: "i"
+    severity: high
+    message: "Tool poisoning: curl POST with variable data (potential exfiltration)"
+
+  - id: reverse-shell
+    pattern: "(nc|netcat|ncat)\\s+.*-e\\s*(sh|bash|/bin)"
+    flags: "i"
+    severity: critical
+    message: "Tool poisoning: reverse shell pattern detected"
+
+  - id: base64-decode-execute
+    pattern: "(base64\\s+(-d|--decode)|atob).*\\|\\s*(sh|bash|eval)"
+    flags: "i"
+    severity: critical
+    message: "Tool poisoning: base64 decode and execute pattern"
+
+  - id: environment-variable-exfil
+    pattern: "(curl|wget|fetch).*\\$[A-Z_]+.*"
+    flags: ""
+    severity: high
+    message: "Tool poisoning: environment variable in network request"

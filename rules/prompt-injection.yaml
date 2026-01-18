@@ -50,3 +50,39 @@ patterns:
     flags: "i"
     severity: critical
     message: "Prompt injection: privilege escalation attempt"
+
+  - id: disregard-instructions
+    pattern: "disregard\\s+(all\\s+)?(previous|prior|above)\\s+(instructions?|context)"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: disregard instructions attempt"
+
+  - id: jailbreak-dan
+    pattern: "(DAN|do\\s+anything\\s+now|jailbreak)"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: jailbreak attempt (DAN pattern)"
+
+  - id: pretend-to-be
+    pattern: "pretend\\s+(to\\s+be|you\\s+are)"
+    flags: "i"
+    severity: high
+    message: "Prompt injection: role manipulation via pretend"
+
+  - id: hidden-instruction-marker
+    pattern: "\\[INST\\]|\\[/INST\\]|<<SYS>>|<</SYS>>"
+    flags: ""
+    severity: critical
+    message: "Prompt injection: Llama/system instruction markers detected"
+
+  - id: assistant-response-fake
+    pattern: "^(Assistant|Claude|AI):\\s+"
+    flags: "im"
+    severity: high
+    message: "Prompt injection: fake assistant response prefix"
+
+  - id: important-override
+    pattern: "IMPORTANT:\\s*(ignore|override|disregard|forget)"
+    flags: "i"
+    severity: critical
+    message: "Prompt injection: IMPORTANT override attempt"
