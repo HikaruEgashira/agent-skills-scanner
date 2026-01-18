@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 668
+- Total skills scanned: 672
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -988,6 +988,12 @@ Last updated: 2026-01-19T01:00:00.000Z
 667. pixel-art-exporter (willibrandon/pixel-plugin) - ✅ Clean (Note: MEDIUM - path validation concerns, Aseprite MCP integration)
 668. game-engine (gmh5225/awesome-game-security) - ✅ Clean (Engine development resources, Unreal/Unity/Godot, rendering/physics/networking)
 
+### Rust Development Extended Skills (New - 2026-01-19)
+669. async-drop (cryfs/cryfs) - ✅ Clean (AsyncDrop pattern for async cleanup, macro-based scope guarantees)
+670. handling-rust-errors (hashintel/hash) - ✅ Clean (error-stack crate patterns, Report types, HashQL compiler exceptions)
+671. exploring-rust-crates (hashintel/hash) - ✅ Clean (cargo doc generation, API exploration, workspace analysis)
+672. documenting-rust-code (hashintel/hash) - ✅ Clean (rustdoc conventions, error documentation, intra-doc linking)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -1087,3 +1093,4 @@ Categories scanned in this iteration:
 - Go & Multi-Language Tools (7 skills)
 - LLVM & Compiler Infrastructure (10 skills)
 - Game Development Extended (3 skills)
+- Rust Development Extended (4 skills)
