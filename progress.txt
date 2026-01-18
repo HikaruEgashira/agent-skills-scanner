@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 710
+- Total skills scanned: 716
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1103,6 +1103,7 @@ Categories scanned in this iteration:
 - Machine Learning/Scientific (12 skills)
 - Blockchain/Web3 Security (5 skills)
 - AWS/Cloud Infrastructure (5 skills)
+- Testing & Automation (6 skills)
 - Redis & Kubernetes/DevOps (13 skills)
 
 ### Redis Skills (New - 2026-01-19)
@@ -1149,3 +1150,11 @@ Categories scanned in this iteration:
 708. prowler-sdk-check (prowler-cloud/prowler) - ✅ Clean (Security check creation, multi-provider)
 709. prowler-test-sdk (prowler-cloud/prowler) - ✅ Clean (Prowler SDK testing patterns, Apache 2.0)
 710. dsql (awslabs/mcp) - ✅ Clean (Aurora DSQL, serverless PostgreSQL, IAM auth)
+
+### Testing & Automation Skills (New - 2026-01-19)
+711. senior-qa (davila7/claude-code-templates) - ✅ Clean (QA toolkit, test automation, ReactJS/NextJS/NodeJS)
+712. senior-security (davila7/claude-code-templates) - ✅ Clean (Security engineering, penetration testing, compliance)
+713. browser-automation (civitai/civitai) - ✅ Clean (Playwright HTTP server, multi-session, auth profiles)
+714. cli-e2e-testing (dotnet/aspire) - ✅ Clean (Aspire CLI E2E, Hex1b terminal automation)
+715. playwright-app-testing (Expensify/App) - ✅ Clean (Expensify UI testing, dev environment)
+716. playwright-skill (lackeyjb/playwright-skill) - ✅ Clean (Generic Playwright automation, /tmp output)
