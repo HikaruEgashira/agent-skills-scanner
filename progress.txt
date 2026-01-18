@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T18:15:00.000Z
+Last updated: 2026-01-18T18:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 392
+- Total skills scanned: 398
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.5% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -570,6 +570,16 @@ Last updated: 2026-01-18T18:15:00.000Z
 391. event-store-design (wshobson/agents) - ✅ Clean (event sourcing infrastructure with PostgreSQL, EventStoreDB, DynamoDB implementations)
 392. cqrs-implementation (wshobson/agents) - ✅ Clean (Command Query Responsibility Segregation patterns with FastAPI)
 
+### LLM Application Development Category (New - 2026-01-18)
+393. langchain-architecture (wshobson/agents) - ✅ Clean (LangChain framework patterns and architecture guide)
+394. rag-implementation (wshobson/agents) - ✅ Clean (Retrieval-Augmented Generation system implementation)
+395. similarity-search-patterns (wshobson/agents) - ✅ Clean (Note: MODERATE - credential handling guidance recommended)
+
+### Reverse Engineering Category (New - 2026-01-18)
+396. anti-reversing-techniques (wshobson/agents) - ✅ Clean (Note: Legitimate security reference with authorization guardrails)
+397. binary-analysis-patterns (wshobson/agents) - ✅ Clean (Assembly patterns and decompilation techniques)
+398. protocol-reverse-engineering (wshobson/agents) - ✅ Clean (Note: MODERATE - MITM interception requires authorization guidance)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -652,3 +662,5 @@ Categories scanned in this iteration:
 - Cloud Infrastructure (1 skill)
 - Data Engineering Extended (2 skills)
 - Architecture Patterns Extended (2 skills)
+- LLM Application Development (3 skills)
+- Reverse Engineering (3 skills)
