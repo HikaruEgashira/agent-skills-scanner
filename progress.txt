@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T13:30:00.000Z
+Last updated: 2026-01-18T14:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 123
+- Total skills scanned: 130
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -179,6 +179,15 @@ Last updated: 2026-01-18T13:30:00.000Z
 122. microservices-patterns (wshobson/agents) - ✅ Clean
 123. pci-compliance (wshobson/agents) - ✅ Clean
 
+### Backend Category (New - 2026-01-18)
+124. add-admin-api-endpoint (TryGhost/Ghost) - ✅ Clean
+125. add-malli-schemas (metabase/metabase) - ✅ Clean
+126. api-design-principles (wshobson/agents) - ✅ Clean
+127. fastapi-templates (wshobson/agents) - ✅ Clean
+128. django-drf (prowler-cloud/prowler) - ✅ Clean
+129. prowler-api (prowler-cloud/prowler) - ✅ Clean
+130. zod-4 (prowler-cloud/prowler) - ✅ Clean
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -209,5 +218,4 @@ All scanned skills appear to be legitimate and do not contain obvious security v
 The skills from major open source projects follow best practices.
 
 Categories scanned in this iteration:
-- System Administration (5 skills)
-- Architecture Patterns (6 skills)
+- Backend (7 skills)
