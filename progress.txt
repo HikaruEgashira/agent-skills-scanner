@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 504
+- Total skills scanned: 505
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.7% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -745,6 +745,7 @@ Last updated: 2026-01-19T01:00:00.000Z
 502. new-component (longbridge/gpui-component) - ✅ Clean (GPUI component creation guide, stateless/stateful patterns)
 503. gpui-event (longbridge/gpui-component) - ✅ Clean (Event handling architecture, automatic subscription cleanup)
 504. react-ui-patterns (ChrisWiles/claude-code-showcase) - ✅ Clean (Loading states, error handling, data fetching best practices)
+505. generate-component-story (longbridge/gpui-component) - ✅ Clean (Component story creation guide for Rust UI framework)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
