@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 505
+- Total skills scanned: 508
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.7% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -746,6 +746,11 @@ Last updated: 2026-01-19T01:00:00.000Z
 503. gpui-event (longbridge/gpui-component) - ✅ Clean (Event handling architecture, automatic subscription cleanup)
 504. react-ui-patterns (ChrisWiles/claude-code-showcase) - ✅ Clean (Loading states, error handling, data fetching best practices)
 505. generate-component-story (longbridge/gpui-component) - ✅ Clean (Component story creation guide for Rust UI framework)
+
+### Backend Development Category (New - 2026-01-19)
+506. api-integration-specialist (davila7/claude-code-templates) - ✅ Clean (Third-party API integration patterns, OAuth2, webhook security)
+507. backend-dev-guidelines (diet103/claude-code-infrastructure-showcase) - ✅ Clean (Node.js/Express microservices architecture, Zod validation)
+508. route-tester (diet103/claude-code-infrastructure-showcase) - ✅ Clean (Note: MEDIUM design consideration - dev/test only tool with mock auth bypass patterns)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
