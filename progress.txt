@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 318
+- Total skills scanned: 328
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -448,6 +448,20 @@ Last updated: 2026-01-18T16:00:00.000Z
 317. write-example (tldraw/tldraw) - ✅ Clean (example code documentation)
 318. writing-docs (remotion-dev/remotion) - ✅ Clean (Remotion documentation guide)
 
+### Knowledge Base Category (New - 2026-01-18)
+319. resource-curator (leonardomso/33-js-concepts) - ✅ Clean (resource curation methodology)
+320. skill-creator (openai/codex) - ✅ Clean (Codex skill creation guide)
+321. create-skill-file (labring/FastGPT) - ✅ Clean (Chinese-language skill guide)
+322. skill-creator (anthropics/skills) - ✅ Clean (official Anthropic skill guide)
+323. doc-coauthoring (anthropics/skills) - ✅ Clean (Note: MODERATE - context gathering from external sources)
+
+### Education Category (New - 2026-01-18)
+324. skill-installer (openai/codex) - ✅ Clean (Note: MEDIUM - network escalation, token handling)
+325. scientific-slides (davila7/claude-code-templates) - ✅ Clean (academic presentation creation)
+326. create-plan (davila7/claude-code-templates) - ✅ Clean (read-only planning workflow)
+327. skill-builder (ruvnet/claude-flow) - ✅ Clean (skill creation with YAML validation)
+328. write-docs (browseros-ai/BrowserOS) - ✅ Clean (Note: MEDIUM - unrestricted Bash access for doc tool)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -510,3 +524,5 @@ Categories scanned in this iteration:
 - Project Management (3 skills)
 - Documents (3 skills)
 - Technical Docs (7 skills)
+- Knowledge Base (5 skills)
+- Education (5 skills)
