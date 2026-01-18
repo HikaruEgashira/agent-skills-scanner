@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 633
+- Total skills scanned: 639
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -937,6 +937,16 @@ Last updated: 2026-01-19T01:00:00.000Z
 632. project-scaffolding (aiskillstore/marketplace) - ✅ Clean (70+ project types, CLI scaffolding wizard)
 633. platform-specialist (wasintoh/toh-framework) - ✅ Clean (LINE LIFF, Expo, Tauri platform integration)
 
+### 3D Graphics & WebGL Skills (New - 2026-01-19)
+634. threejs (AnthemFlynn/ccmp) - ✅ Clean (Three.js WebGPU/WebGL, materials, lighting, animations)
+
+### WebAssembly & WASM Skills (New - 2026-01-19)
+635. makepad-deployment (ZhangHanDong/makepad-skills) - ✅ Clean (Desktop/mobile/Wasm packaging, cargo-makepad)
+636. wash (cosmonic-labs/skills) - ✅ Clean (wasmCloud Shell CLI, WIT definitions, component dev)
+637. workers-multi-lang (secondsky/claude-skills) - ✅ Clean (Rust/Python/WASM Cloudflare Workers)
+638. m11-ecosystem (ZhangHanDong/rust-skills) - ✅ Clean (Rust crate selection, WASM/bindgen ecosystem)
+639. kotlin-multiplatform (vitorpamplona/amethyst) - ✅ Clean (KMP platform abstraction, WASM considerations)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -1028,3 +1038,5 @@ Categories scanned in this iteration:
 - Angular Framework (6 skills)
 - Runtime & Edge (4 skills)
 - Tauri Desktop (4 skills)
+- 3D Graphics & WebGL (1 skill)
+- WebAssembly & WASM (5 skills)
