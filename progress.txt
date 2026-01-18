@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 619
+- Total skills scanned: 629
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -917,6 +917,20 @@ Last updated: 2026-01-19T01:00:00.000Z
 618. tanstack-query (exceptionless/Exceptionless) - ✅ Clean (Data fetching, caching, WebSocket real-time updates)
 619. frontend-architecture (exceptionless/Exceptionless) - ✅ Clean (Svelte SPA architecture, route groups, lib structure)
 
+### Angular Framework Skills (New - 2026-01-19)
+620. angular-20-standalone-component (aiskillstore/marketplace) - ✅ Clean (Angular 20 Signals, standalone components, input()/output())
+621. rxjs-patterns-for-angular (aiskillstore/marketplace) - ✅ Clean (RxJS operators, subscription cleanup, Signals integration)
+622. angular-cdk-integration (aiskillstore/marketplace) - ✅ Clean (CDK drag-drop, overlay, portal, a11y utilities)
+623. ng-alain-component-development (aiskillstore/marketplace) - ✅ Clean (ng-alain/ng-zorro enterprise UI patterns)
+624. delon-form-dynamic-schema-forms (aiskillstore/marketplace) - ✅ Clean (JSON Schema forms, @delon/form SF component)
+625. perigon-angular (aiskillstore/marketplace) - ✅ Clean (Angular 21+ Material/signal conventions)
+
+### Runtime & Edge Skills (New - 2026-01-19)
+626. hono-routing (jezweb/claude-skills) - ✅ Clean (Hono API patterns for Workers/Deno/Bun, Zod validation)
+627. edge-computing-patterns (aiskillstore/marketplace) - ✅ Clean (Note: MODERATE - Cloudflare/Vercel/Deno edge patterns)
+628. defi-expert (aiskillstore/marketplace) - ✅ Clean (DeFi protocol precision, denomination standards)
+629. data-modeling (rsmdt/the-startup) - ✅ Clean (Schema design, normalization, entity relationships)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -1005,3 +1019,5 @@ Categories scanned in this iteration:
 - Conductor Framework (3 skills)
 - Accessibility & Framework Migration (2 skills)
 - Svelte Framework (4 skills)
+- Angular Framework (6 skills)
+- Runtime & Edge (4 skills)
