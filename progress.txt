@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 719
+- Total skills scanned: 724
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1105,6 +1105,7 @@ Categories scanned in this iteration:
 - AWS/Cloud Infrastructure (5 skills)
 - Testing & Automation (6 skills)
 - Documentation/Markdown (3 skills)
+- iOS/Swift Development (5 skills)
 - Redis & Kubernetes/DevOps (13 skills)
 
 ### Redis Skills (New - 2026-01-19)
@@ -1164,3 +1165,10 @@ Categories scanned in this iteration:
 717. docs-review (metabase/metabase) - ✅ Clean (Documentation review, style guide compliance, PR review)
 718. docs-write (metabase/metabase) - ✅ Clean (Documentation writing, conversational style guide)
 719. adding-service-documentation (coollabsio/coolify-docs) - ✅ Clean (Service docs automation, logo handling)
+
+### iOS/Swift Development Skills (New - 2026-01-19)
+720. swiftui-liquid-glass (Dimillian/Skills) - ✅ Clean (iOS 26+ Liquid Glass API, SwiftUI effects)
+721. moai-lang-swift (modu-ai/moai-adk) - ✅ Clean (Swift 6+ specialist, SwiftUI, Combine, Concurrency)
+722. axiom-ios-ui (CharlesWiltgen/Axiom) - ✅ Clean (iOS UI routing, SwiftUI/UIKit, design guidelines)
+723. axiom-swiftdata (CharlesWiltgen/Axiom) - ✅ Clean (SwiftData persistence, CloudKit sync, migrations)
+724. axiom-ios-concurrency (CharlesWiltgen/Axiom) - ✅ Clean (Swift concurrency patterns, @MainActor)
