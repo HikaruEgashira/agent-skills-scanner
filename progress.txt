@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 600
+- Total skills scanned: 605
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.8% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -885,6 +885,15 @@ Last updated: 2026-01-19T01:00:00.000Z
 598. swiftui-view-refactor (Dimillian/Skills) - ✅ Clean (SwiftUI view restructuring, Observation framework patterns)
 599. macos-spm-app-packaging (Dimillian/Skills) - ✅ Clean (SwiftPM macOS app bundling, signing, notarization)
 600. ui-ux-pro-max (nextlevelbuilder/ui-ux-pro-max-skill) - ✅ Clean (Note: MEDIUM - external dependency validation recommended)
+
+### GraphQL & API Development Skills (New - 2026-01-19)
+601. graphql-schema (ChrisWiles/claude-code-showcase) - ✅ Clean (GraphQL operations, Apollo Client, type generation)
+602. api-fuzzing-for-bug-bounty (zebbern/claude-code-guide) - ✅ Clean (Note: MEDIUM - legitimate security testing guide, payload examples)
+603. pr-review-reply (stacklok/toolhive) - ✅ Clean (Note: MODERATE - GitHub GraphQL API, input validation recommended)
+604. backend-development (mrgoonie/claudekit-skills) - ✅ Clean (Node.js/Python/Go/Rust backend patterns, OWASP guidance)
+
+### Vue.js Development Skills (New - 2026-01-19)
+605. vue-composable-creator (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - Bash wildcard permissions)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
