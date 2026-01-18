@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 336
+- Total skills scanned: 341
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -472,6 +472,13 @@ Last updated: 2026-01-18T16:00:00.000Z
 335. morph-apply (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: MODERATE - code marker injection risk)
 336. media-processing (mrgoonie/claudekit-skills) - ✅ Clean (FFmpeg/ImageMagick processing)
 
+### Git Workflows Category (New - 2026-01-18)
+337. write-pr (tldraw/tldraw) - ✅ Clean (PR writing standards)
+338. commit-helper (cockroachdb/cockroach) - ✅ Clean (commit message formatting)
+339. backport-pr-assistant (cockroachdb/cockroach) - ✅ Clean (Note: command injection considerations)
+340. using-git-worktrees (obra/superpowers) - ✅ Clean (Note: MEDIUM - path traversal, dependency execution)
+341. receiving-code-review (obra/superpowers) - ✅ Clean (Note: MEDIUM - review feedback trust model)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -537,3 +544,4 @@ Categories scanned in this iteration:
 - Knowledge Base (5 skills)
 - Education (5 skills)
 - Media (8 skills)
+- Git Workflows (5 skills)
