@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T12:30:00.000Z
+Last updated: 2026-01-18T13:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 98
+- Total skills scanned: 112
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -146,6 +146,24 @@ Last updated: 2026-01-18T12:30:00.000Z
 97. content-research-writer (ComposioHQ/awesome-claude-skills) - ✅ Clean
 98. scientific-critical-thinking (davila7/claude-code-templates) - ✅ Clean
 
+### Productivity & Integration Category (New - 2026-01-18)
+99. pr-creator (google-gemini/gemini-cli) - ✅ Clean
+100. writing-rules (anthropics/claude-code) - ✅ Clean
+101. docs-write (metabase/metabase) - ✅ Clean
+102. typescript-write (metabase/metabase) - ✅ Clean
+103. docs-review (metabase/metabase) - ✅ Clean
+104. clojure-review (metabase/metabase) - ✅ Clean
+105. typescript-review (metabase/metabase) - ✅ Clean
+
+### Debugging Category (New - 2026-01-18)
+106. shellcheck-configuration (wshobson/agents) - ✅ Clean
+107. debugging-strategies (wshobson/agents) - ✅ Clean
+108. memory-forensics (wshobson/agents) - ✅ Clean
+109. python-performance-optimization (wshobson/agents) - ✅ Clean
+110. distributed-tracing (wshobson/agents) - ✅ Clean
+111. e2e-testing-patterns (wshobson/agents) - ✅ Clean
+112. code-review-excellence (wshobson/agents) - ✅ Clean
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -176,5 +194,5 @@ All scanned skills appear to be legitimate and do not contain obvious security v
 The skills from major open source projects follow best practices.
 
 Categories scanned in this iteration:
-- Machine Learning (3 skills)
-- Academic & Research (3 skills)
+- Productivity & Integration (7 skills)
+- Debugging (7 skills)
