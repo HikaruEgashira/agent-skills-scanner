@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T17:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 385
+- Total skills scanned: 387
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.5% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -555,6 +555,10 @@ Last updated: 2026-01-18T17:30:00.000Z
 384. mobile-security (gmh5225/awesome-game-security) - ✅ Clean (Note: HIGH design consideration - game security research with hacking/cheating techniques, educational content)
 385. page-and-route (OneKeyHQ/app-monorepo) - ✅ Clean (detailed page routing documentation for OneKey crypto wallet app)
 
+### Python Development Category (New - 2026-01-18)
+386. async-python-patterns (wshobson/agents) - ✅ Clean (Python asyncio patterns guide with concurrent programming examples)
+387. uv-package-manager (wshobson/agents) - ✅ Clean (comprehensive uv package manager guide for fast Python dependency management)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -633,3 +637,4 @@ Categories scanned in this iteration:
 - Business (2 skills)
 - E-commerce (2 skills)
 - Automation & Mobile (4 skills)
+- Python Development (2 skills)
