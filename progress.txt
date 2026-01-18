@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 724
+- Total skills scanned: 744
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1172,3 +1172,29 @@ Categories scanned in this iteration:
 722. axiom-ios-ui (CharlesWiltgen/Axiom) - ✅ Clean (iOS UI routing, SwiftUI/UIKit, design guidelines)
 723. axiom-swiftdata (CharlesWiltgen/Axiom) - ✅ Clean (SwiftData persistence, CloudKit sync, migrations)
 724. axiom-ios-concurrency (CharlesWiltgen/Axiom) - ✅ Clean (Swift concurrency patterns, @MainActor)
+
+### API/Database/Authentication Skills (New - 2026-01-19)
+725. fetch-unresolved-comments (mlflow/mlflow) - ✅ Clean (GitHub GraphQL API for PR comments)
+726. pr-review-reply (stacklok/toolhive) - ✅ Clean (GitHub PR review workflow, automated responses)
+727. shopify (mrgoonie/claudekit-skills) - ✅ Clean (Shopify GraphQL/REST APIs, Polaris UI)
+728. sql-optimization-patterns (wshobson/agents) - ✅ Clean (SQL performance, EXPLAIN ANALYZE, indexing)
+729. detecting-sql-injection-vulnerabilities (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (SQLi detection, OWASP)
+730. automating-database-backups (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (PostgreSQL/MySQL/MongoDB backup automation)
+731. generating-stored-procedures (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (SQL stored procedures generation)
+732. auth-implementation-patterns (wshobson/agents) - ✅ Clean (JWT, OAuth2, RBAC, session security)
+733. building-api-authentication (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (API auth systems, Express/FastAPI/Spring)
+734. cursor-sso-integration (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Enterprise SSO, SAML/OAuth)
+735. linear-security-basics (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Linear API security, webhook verification)
+736. clerk-core-workflow-a (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Clerk auth flows, social login)
+737. validating-authentication-implementations (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Auth security validation, MFA assessment)
+
+### LLM/Agent Framework Skills (New - 2026-01-19)
+738. ruby-integration (braintrustdata/braintrust-sdk-ruby) - ✅ Clean (Ruby SDK LLM provider integration)
+739. langchain (svngoku/coding-agents-skills) - ✅ Clean (LangChain agents, tools, memory, MCP integration)
+740. adk (srivatsj/interview-agent) - ✅ Clean (Google Agent Development Kit, multi-agent workflows)
+741. mastra-hono (jwynia/agent-skills) - ✅ Clean (Mastra v1 Beta + Hono servers, AI agents)
+
+### CI/CD & Testing Automation Skills (New - 2026-01-19)
+742. gitlab-ci-patterns (wshobson/agents) - ✅ Clean (GitLab CI/CD pipelines, SAST integration)
+743. adk-engineer (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (ADK production engineering, deployment automation)
+744. ios-simulator-skill (conorluddy/ios-simulator-skill) - ✅ Clean (21 iOS testing scripts, accessibility compliance)
