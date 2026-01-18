@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 238
+- Total skills scanned: 246
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -336,6 +336,16 @@ Last updated: 2026-01-18T16:00:00.000Z
 237. cosmic-database (davila7/claude-code-templates) - ✅ Clean (Note: MODERATE - credential handling, but documented warnings)
 238. pydeseq2 (davila7/claude-code-templates) - ✅ Clean (differential gene expression)
 
+### Domain & DNS Tools Category (New - 2026-01-18)
+239. smtp-penetration-testing (zebbern/claude-code-guide) - ✅ Clean (Note: Legitimate pentest educational content with proper authorization warnings)
+240. active-directory-attacks (zebbern/claude-code-guide) - ✅ Clean (Note: Legitimate pentest educational content with remediation guidance)
+241. network-info (UKGovernmentBEIS/inspect_ai) - ✅ Clean (network configuration gathering)
+242. fuzzing-dictionary (trailofbits/skills) - ✅ Clean (fuzzer guidance, legitimate security testing)
+243. domain-dns-ops (steipete/agent-scripts) - ✅ Clean (Note: MODERATE - credential handling, but proper token management guidance)
+244. cloudflare (dmmulroy/cloudflare-skill) - ✅ Clean (Cloudflare platform documentation)
+245. domain-name-brainstormer (ComposioHQ/awesome-claude-skills) - ⚠️ 404 - Path not found
+246. railway-domain (davila7/claude-code-templates) - ⚠️ 404 - Path not found
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -383,3 +393,4 @@ Categories scanned in this iteration:
 - Wellness & Health (1 skill)
 - Philosophy & Ethics (1 skill)
 - Scientific Computing (9 skills)
+- Domain & DNS Tools (8 skills)
