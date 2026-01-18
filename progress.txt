@@ -1333,3 +1333,8 @@ Categories scanned in this iteration:
 ### UI/UX Design Skills (New - 2026-01-19)
 834. ui-designer (marcioaltoe/claude-craftkit) - ✅ Clean (shadcn/ui, Tailwind CSS, accessibility)
 835. ui-ux-pro-max (aiskillstore/marketplace) - ✅ Clean (50 styles, 21 palettes, multi-framework)
+
+### Error Handling/Logging Skills (New - 2026-01-19)
+836. error-logger (aiskillstore/marketplace) - ✅ Clean (Structured JSON logging, correlation IDs)
+837. api-error-handling (aj-geddes/useful-ai-prompts) - ✅ Clean (Standardized error responses)
+838. logging-best-practices (aj-geddes/useful-ai-prompts) - ✅ Clean (PII protection, log rotation)
