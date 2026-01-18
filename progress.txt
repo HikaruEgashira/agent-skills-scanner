@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 753
+- Total skills scanned: 757
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1211,3 +1211,9 @@ Categories scanned in this iteration:
 751. nx-workspace-patterns (wshobson/agents) - ✅ Clean (Nx configuration, module boundaries, build caching)
 752. turborepo-caching (wshobson/agents) - ✅ Clean (Local/remote caching, pipeline optimization)
 753. claude-settings-audit (getsentry/skills) - ✅ Clean (Claude Code settings.json permission analysis)
+
+### Infrastructure/Networking Skills (New - 2026-01-19)
+754. hybrid-cloud-networking (wshobson/agents) - ✅ Clean (VPN, Direct Connect, ExpressRoute, multi-cloud)
+755. cloudflare (dmmulroy/cloudflare-skill) - ✅ Clean (Workers, Pages, KV, D1, R2, WAF, DDoS)
+756. networking-essentials (zebbern/SecOps-CLI-Guides) - ✅ Clean (OSI model, TCP/IP, Cisco, VLANs, ACLs)
+757. iac-terraform-modules-eng (aRustyDev/ai) - ✅ Clean (Terraform/OpenTofu modules, 40+ providers)
