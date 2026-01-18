@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 294
+- Total skills scanned: 300
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -414,6 +414,14 @@ Last updated: 2026-01-18T16:00:00.000Z
 293. risk-metrics-calculation (wshobson/agents) - ✅ Clean (VaR, portfolio risk analysis)
 294. backtesting-frameworks (wshobson/agents) - ✅ Clean (quantitative trading validation)
 
+### Real Estate & Legal Category (New - 2026-01-18)
+295. iso-13485-certification (K-Dense-AI/claude-scientific-skills) - ✅ Clean (medical device QMS documentation)
+296. (parcadei/Continuous-Claude-v3 mcp-scripts) - ⚠️ 404 - Path not found
+297. (cexll/myclaude product-requirements) - ⚠️ 404 - Path not found
+298. (meta-pytorch/OpenEnv rfc-check) - ⚠️ 404 - Path not found
+299. (jeremylongshore checking-infrastructure-compliance) - ⚠️ 404 - Path not found
+300. (jeremylongshore generating-compliance-reports) - ⚠️ 404 - Path not found
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -471,3 +479,4 @@ Categories scanned in this iteration:
 - Sales & Marketing (6 skills)
 - Full Stack (5 skills)
 - Finance & Investment (6 skills)
+- Real Estate & Legal (6 skills)
