@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T15:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 142
+- Total skills scanned: 152
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -206,6 +206,18 @@ Last updated: 2026-01-18T15:30:00.000Z
 141. code-review (agno-agi/agno) - ✅ Clean
 142. lint-fixer (yamadashy/repomix) - ✅ Clean
 
+### SQL Databases Category (New - 2026-01-18)
+143. database-migration (wshobson/agents) - ✅ Clean
+144. postgresql-table-design (wshobson/agents) - ✅ Clean
+145. postgres-query (civitai/civitai) - ✅ Clean
+146. postgresql (2025Emma/vibe-coding-cn) - ✅ Clean
+147. timescaledb (2025Emma/vibe-coding-cn) - ✅ Clean
+148. query-writing (langchain-ai/deepagents) - ✅ Clean
+149. schema-exploration (langchain-ai/deepagents) - ✅ Clean
+150. dsql (awslabs/mcp) - ✅ Clean
+151. query-builder (clidey/whodb) - ✅ Clean
+152. schema-designer (clidey/whodb) - ✅ Clean
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -237,3 +249,4 @@ The skills from major open source projects follow best practices.
 
 Categories scanned in this iteration:
 - Code Quality (2 skills)
+- SQL Databases (10 skills)
