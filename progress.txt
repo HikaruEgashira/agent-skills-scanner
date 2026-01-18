@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T18:30:00.000Z
+Last updated: 2026-01-18T18:45:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 398
+- Total skills scanned: 402
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.5% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -580,6 +580,14 @@ Last updated: 2026-01-18T18:30:00.000Z
 397. binary-analysis-patterns (wshobson/agents) - ✅ Clean (Assembly patterns and decompilation techniques)
 398. protocol-reverse-engineering (wshobson/agents) - ✅ Clean (Note: MODERATE - MITM interception requires authorization guidance)
 
+### Systems Programming Category (New - 2026-01-18)
+399. go-concurrency-patterns (wshobson/agents) - ✅ Clean (Go concurrency patterns with channels, mutexes, and error groups)
+
+### Conductor Framework Category (New - 2026-01-18)
+400. context-driven-development (wshobson/agents) - ✅ Clean (Project management framework with documentation structure)
+401. workflow-patterns (wshobson/agents) - ✅ Clean (Note: MEDIUM - tool integrity and sensitive data handling considerations)
+402. track-management (wshobson/agents) - ✅ Clean (Development track organization and lifecycle management)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -664,3 +672,5 @@ Categories scanned in this iteration:
 - Architecture Patterns Extended (2 skills)
 - LLM Application Development (3 skills)
 - Reverse Engineering (3 skills)
+- Systems Programming (1 skill)
+- Conductor Framework (3 skills)
