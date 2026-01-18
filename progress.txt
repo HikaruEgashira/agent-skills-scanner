@@ -1305,3 +1305,11 @@ Categories scanned in this iteration:
 815. cloud-infrastructure (aiskillstore/marketplace) - ✅ Clean (AWS/Azure/GCP patterns, remote state guidance)
 816. ops-devops-platform (vasilyu1983/AI-Agents-public) - ✅ Clean (GitOps, Trivy scanning, eBPF monitoring)
 817. terraform (cosmix/loom) - ✅ Clean (Terraform/OpenTofu, state encryption, least privilege)
+
+### API Design/Documentation Skills (New - 2026-01-19)
+818. api-contract-design (rsmdt/the-startup) - ✅ Clean (REST/GraphQL, OAuth 2.0/OIDC, JWT security)
+819. api-designer (aiskillstore/marketplace) - ✅ Clean (OpenAPI 3.0, PKCE, rate limiting)
+820. api-reference-documentation (aj-geddes/useful-ai-prompts) - ✅ Clean (Swagger docs, placeholder credentials)
+821. dev-api-design (vasilyu1983/AI-Agents-public) - ✅ Clean (OWASP API Top 10, AuthN/Z boundaries)
+822. api-design (cosmix/loom) - ✅ Clean (REST/GraphQL/RPC patterns, versioning)
+823. api-design-patterns (ilude/claude-code-config) - ✅ Clean (Query depth limiting, RBAC/ABAC patterns)
