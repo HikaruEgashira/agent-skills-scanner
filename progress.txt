@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 765
+- Total skills scanned: 782
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~1.0% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1229,3 +1229,30 @@ Categories scanned in this iteration:
 763. ui-ux-pro-max (nextlevelbuilder/ui-ux-pro-max-skill) - ✅ Clean (50 styles, 9 stacks, design systems)
 764. expo-app-design (skillcreatorai/Ai-Agent-Skills) - ✅ Clean (Expo Router, NativeWind, cross-platform)
 765. react-native (alinaqi/claude-bootstrap) - ✅ Clean (RN patterns, TypeScript, platform-specific code)
+
+### Data Visualization/ML Skills (New - 2026-01-19)
+766. data-visualization (NTCoding/claude-skillz) - ✅ Clean (Cleveland-McGill hierarchy, Shneiderman's mantra)
+767. vega (xicilion/markdown-viewer-extension) - ✅ Clean (Vega-Lite/Vega, statistical charts, JSON spec)
+768. shap (K-Dense-AI/claude-scientific-skills) - ✅ Clean (SHAP explainability, feature importance, MLflow)
+769. ai-engineer (aibangjuxin/knowledge) - ✅ Clean (Recommendation systems, GDPR compliance)
+770. moai-domain-ml (AJBcoding/claude-skill-eval) - ✅ Clean (Enterprise ML, TensorFlow/PyTorch, FastAPI)
+771. machine-learning (pluginagentmarketplace/custom-plugin-python) - ✅ Clean (scikit-learn, PyTorch, MLOps)
+772. ml-reviewer (physics91/claude-vibe) - ✅ Clean (ML code review, data leakage prevention)
+
+### Serverless/Edge Skills (New - 2026-01-19)
+773. neon-serverless (neondatabase/ai-rules) - ✅ Clean (Neon PostgreSQL, Vercel Edge, WebSocket Pool)
+774. workers-migration (secondsky/claude-skills) - ✅ Clean (Cloudflare Workers migration, Lambda/Vercel)
+775. configuring-serverless-clients (djankies/claude-configs) - ✅ Clean (PrismaClient serverless, connection pooling)
+
+### Caching/Performance Skills (New - 2026-01-19)
+776. managing-api-cache (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Redis/Memcached API caching, CDN)
+777. caching-strategy (aj-geddes/useful-ai-prompts) - ✅ Clean (Multi-level cache, TTL, invalidation patterns)
+778. caching (cosmix/loom) - ✅ Clean (Cache-aside, write-through, stampede prevention)
+
+### WebSocket/Realtime Skills (New - 2026-01-19)
+779. websocket-realtime-builder (patricio0312rev/skills) - ✅ Clean (Socket.io, token auth, rooms)
+
+### Event-Driven/Messaging Skills (New - 2026-01-19)
+780. event-driven (cosmix/loom) - ✅ Clean (Kafka/RabbitMQ, CQRS, Saga, Event Sourcing)
+781. spring-boot-full-stack (mduongvandinh/skills-java-spring) - ✅ Clean (Java Spring Boot, OAuth2/JWT, RBAC)
+782. messaging (pluginagentmarketplace/custom-plugin-backend) - ✅ Clean (RabbitMQ/Kafka/SQS, DLQ, exponential backoff)
