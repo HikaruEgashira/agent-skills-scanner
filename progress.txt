@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T10:05:00.000Z
+Last updated: 2026-01-18T10:15:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 52
+- Total skills scanned: 58
 - Skills with security issues: 0
 - False positives detected: 0
 
@@ -66,7 +66,7 @@ Last updated: 2026-01-18T10:05:00.000Z
 43. command-development (anthropics/claude-code) - ✅ Clean
 44. bit-cli (teambit/bit) - ✅ Clean
 
-### LLM & AI Category (New)
+### LLM & AI Category
 45. skill-creator (google-gemini/gemini-cli) - ✅ Clean
 46. claude-opus-4-5-migration (anthropics/claude-code) - ✅ Clean
 47. skill-development (anthropics/claude-code) - ✅ Clean
@@ -76,7 +76,17 @@ Last updated: 2026-01-18T10:05:00.000Z
 
 ### Scripting Category
 51. bash-defensive-patterns (wshobson/agents) - ✅ Clean
-52. (additional from shell-scripting category)
+
+### Testing Category (New)
+52. write-unit-tests (tldraw/tldraw) - ✅ Clean
+53. write-e2e-tests (tldraw/tldraw) - ✅ Clean
+54. webapp-testing (anthropics/skills) - ✅ Clean
+55. systematic-debugging (obra/superpowers) - ✅ Clean
+56. test-writer (leonardomso/33-js-concepts) - ✅ Clean
+
+### Frontend Category (New)
+57. web-artifacts-builder (anthropics/skills) - ✅ Clean
+58. frontend-design (anthropics/skills) - ✅ Clean
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
@@ -88,4 +98,4 @@ Last updated: 2026-01-18T10:05:00.000Z
 
 ## Notes
 All scanned skills appear to be legitimate and do not contain obvious security vulnerabilities.
-The skills from major open source projects (n8n, dify, electron, pytorch, bun, anthropics, google-gemini) follow best practices.
+The skills from major open source projects (n8n, dify, electron, pytorch, bun, anthropics, google-gemini, tldraw, obra) follow best practices.
