@@ -2,9 +2,9 @@
 Last updated: 2026-01-18T19:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 404
+- Total skills scanned: 427
 - Total skills on skillsmp.com: 71,577
-- Coverage: ~0.5% of marketplace (representative sample from all major categories)
+- Coverage: ~0.6% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -591,6 +591,43 @@ Last updated: 2026-01-18T19:00:00.000Z
 ### Accessibility & Framework Migration Category (New - 2026-01-18)
 403. screen-reader-testing (wshobson/agents) - ✅ Clean (VoiceOver, NVDA, JAWS testing patterns)
 404. angular-migration (wshobson/agents) - ✅ Clean (AngularJS to Angular migration guide)
+
+### Database Design Category (New - 2026-01-18)
+405. postgresql (wshobson/agents) - ✅ Clean (PostgreSQL schema design with row-level security best practices)
+
+### Blockchain & Web3 Category (New - 2026-01-18)
+406. defi-protocol-templates (wshobson/agents) - ✅ Clean (DeFi staking, AMM, governance templates - educational content)
+407. nft-standards (wshobson/agents) - ✅ Clean (ERC-721, ERC-1155, royalty standards with OpenZeppelin patterns)
+408. solidity-security (wshobson/agents) - ✅ Clean (Reentrancy, overflow, access control security patterns)
+409. web3-testing (wshobson/agents) - ✅ Clean (Hardhat, Foundry testing frameworks)
+
+### Quantitative Trading Category (New - 2026-01-18)
+410. backtesting-frameworks (wshobson/agents) - ✅ Clean (Backtesting patterns with pandas/numpy)
+411. risk-metrics-calculation (wshobson/agents) - ✅ Clean (VaR, Sharpe ratio, Monte Carlo simulation)
+
+### Incident Response Category (New - 2026-01-18)
+412. incident-runbook-templates (wshobson/agents) - ✅ Clean (Kubernetes/database incident procedures)
+413. on-call-handoff-patterns (wshobson/agents) - ✅ Clean (On-call documentation templates)
+414. postmortem-writing (wshobson/agents) - ✅ Clean (Blameless postmortem methodology)
+
+### CI/CD Automation Category (New - 2026-01-18)
+415. deployment-pipeline-design (wshobson/agents) - ✅ Clean (Pipeline orchestration patterns)
+416. github-actions-templates (wshobson/agents) - ✅ Clean (GitHub Actions workflow templates)
+417. gitlab-ci-patterns (wshobson/agents) - ✅ Clean (GitLab CI/CD configuration patterns)
+418. secrets-management (wshobson/agents) - ✅ Clean (Vault, GitHub Secrets best practices)
+
+### Cloud Infrastructure Category (New - 2026-01-18)
+419. cost-optimization (wshobson/agents) - ✅ Clean (AWS/Azure/GCP cost management)
+420. hybrid-cloud-networking (wshobson/agents) - ✅ Clean (Direct Connect, VPN, ExpressRoute patterns)
+421. istio-traffic-management (wshobson/agents) - ✅ Clean (Istio routing, TLS, fault injection)
+422. linkerd-patterns (wshobson/agents) - ✅ Clean (Linkerd service mesh patterns)
+423. multi-cloud-architecture (wshobson/agents) - ✅ Clean (Multi-cloud strategy guidance)
+424. service-mesh-observability (wshobson/agents) - ✅ Clean (Prometheus, Jaeger, Kiali integration)
+
+### Kubernetes Operations Category (New - 2026-01-18)
+425. gitops-workflow (wshobson/agents) - ✅ Clean (ArgoCD, Flux CD GitOps patterns)
+426. helm-chart-scaffolding (wshobson/agents) - ✅ Clean (Helm chart development guide)
+427. k8s-manifest-generator (wshobson/agents) - ✅ Clean (Note: MODERATE - secret handling guidance could be stronger)
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
