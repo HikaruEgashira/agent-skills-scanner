@@ -1,0 +1,64 @@
+id: tool-poisoning
+name: Tool Poisoning Detection
+description: Detects tool description manipulation and privilege escalation
+priority: P1
+patterns:
+  - id: description-system-tag
+    pattern: "description:\\s*[\"']?.*<system>"
+    flags: "i"
+    severity: critical
+    message: "Tool poisoning: system tag in tool description"
+
+  - id: hidden-instructions
+    pattern: "description:\\s*[\"']?.*\\b(must|always|never|ignore)\\b.*instructions?"
+    flags: "i"
+    severity: high
+    message: "Tool poisoning: hidden instructions in description"
+
+  - id: privilege-escalation
+    pattern: "(sudo|root|admin|elevated)\\s+(access|privileges?|permissions?)"
+    flags: "i"
+    severity: critical
+    message: "Tool poisoning: privilege escalation attempt"
+
+  - id: shell-injection-subshell
+    pattern: "\\$\\([^)]+\\)"
+    flags: ""
+    severity: critical
+    message: "Tool poisoning: shell subshell command injection"
+
+  - id: shell-injection-backtick
+    pattern: "`[^`]+`"
+    flags: ""
+    severity: high
+    message: "Tool poisoning: backtick command execution"
+
+  - id: shell-injection-rm
+    pattern: "(;|&&|\\|)\\s*rm\\s"
+    flags: ""
+    severity: critical
+    message: "Tool poisoning: destructive shell command chain"
+
+  - id: shell-injection-pipe
+    pattern: "\\|\\s*(sh|bash|zsh|eval)"
+    flags: ""
+    severity: critical
+    message: "Tool poisoning: shell pipe execution"
+
+  - id: execute-arbitrary
+    pattern: "(exec|eval|spawn)\\s*\\("
+    flags: "i"
+    severity: high
+    message: "Tool poisoning: arbitrary code execution pattern"
+
+  - id: hidden-callback
+    pattern: "(fetch|axios|http\\.request|XMLHttpRequest)\\s*\\(\\s*['\"]https?://"
+    flags: ""
+    severity: high
+    message: "Tool poisoning: external callback attempt"
+
+  - id: fs-operations
+    pattern: "(fs\\.write|fs\\.unlink|fs\\.rm|rimraf)"
+    flags: ""
+    severity: high
+    message: "Tool poisoning: dangerous filesystem operation"

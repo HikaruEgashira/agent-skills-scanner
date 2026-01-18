@@ -1,0 +1,64 @@
+id: data-exfiltration
+name: Data Exfiltration Detection
+description: Detects patterns that could lead to sensitive data exposure
+priority: P1
+patterns:
+  - id: env-access
+    pattern: "process\\.env"
+    flags: ""
+    severity: high
+    message: "Data exfiltration: environment variable access"
+
+  - id: ssh-path
+    pattern: "~/?\\.ssh/"
+    flags: ""
+    severity: critical
+    message: "Data exfiltration: SSH directory access"
+
+  - id: aws-credentials
+    pattern: "~/?\\.aws/"
+    flags: ""
+    severity: critical
+    message: "Data exfiltration: AWS credentials access"
+
+  - id: api-key-pattern
+    pattern: "(api[_-]?key|apikey|secret[_-]?key|access[_-]?token)\\s*[=:]"
+    flags: "i"
+    severity: high
+    message: "Data exfiltration: API key pattern detected"
+
+  - id: private-key
+    pattern: "-----BEGIN\\s+(RSA\\s+)?PRIVATE\\s+KEY-----"
+    flags: ""
+    severity: critical
+    message: "Data exfiltration: private key detected"
+
+  - id: password-pattern
+    pattern: "(password|passwd|pwd)\\s*[=:]\\s*['\"][^'\"]+['\"]"
+    flags: "i"
+    severity: critical
+    message: "Data exfiltration: hardcoded password detected"
+
+  - id: home-directory
+    pattern: "~/\\.(bash_history|zsh_history|netrc|npmrc)"
+    flags: ""
+    severity: high
+    message: "Data exfiltration: sensitive dotfile access"
+
+  - id: database-url
+    pattern: "(mongodb|postgresql|mysql|redis)://[^\\s]+"
+    flags: "i"
+    severity: critical
+    message: "Data exfiltration: database connection string detected"
+
+  - id: github-token
+    pattern: "(gh[pousr]_[A-Za-z0-9_]{36,}|github_pat_[A-Za-z0-9_]+)"
+    flags: ""
+    severity: critical
+    message: "Data exfiltration: GitHub token pattern detected"
+
+  - id: generic-secret
+    pattern: "(secret|token|credential)[s]?\\s*[=:]\\s*['\"][^'\"]{8,}['\"]"
+    flags: "i"
+    severity: high
+    message: "Data exfiltration: potential secret/token detected"

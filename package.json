@@ -1,0 +1,23 @@
+{
+  "name": "agent-skills-scanner",
+  "version": "0.1.0",
+  "description": "Security scanner for SKILL.md files",
+  "type": "module",
+  "bin": {
+    "skill-scan": "./src/cli/index.ts"
+  },
+  "scripts": {
+    "scan": "bun run src/cli/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/js-yaml": "^4.0.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  }
+}
