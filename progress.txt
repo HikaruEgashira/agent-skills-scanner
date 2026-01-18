@@ -1346,3 +1346,12 @@ Categories scanned in this iteration:
 842. scanning-container-security (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Docker, Kubernetes)
 843. plugin-auditor (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Plugin security assessment)
 844. performing-security-code-review (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (SQL injection, XSS detection)
+
+### Docker/Kubernetes/DevOps Skills (New - 2026-01-19)
+845. devops-deployment (yonatangross/skillforge-claude-plugin) - ✅ Clean (GitHub Actions, Docker, Helm, Terraform)
+846. devops-practices (Lobbi-Docs/claude) - ✅ Clean (Kubernetes, multi-cloud strategies, IaC)
+
+### CLI/Terminal Skills (New - 2026-01-19)
+847. cli-developer (Jeffallan/claude-skills) - ✅ Clean (Node.js, Python, Go CLI tools)
+848. domain-cli (ZhangHanDong/rust-skills) - ✅ Clean (Rust clap, ratatui, terminal UI)
+849. cli-ux-tester (ali5ter/claude-cli-ux-skill) - ✅ Clean (CLI UX evaluation, 8-criteria framework)
