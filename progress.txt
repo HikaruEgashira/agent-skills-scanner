@@ -1326,3 +1326,6 @@ Categories scanned in this iteration:
 830. clean-code-reviewer (aiskillstore/marketplace) - ✅ Clean (Clean Code principles, read-only analysis)
 831. backend-architect (aiskillstore/marketplace) - ✅ Clean (DDD, SOLID, P0/P1/P2 prioritization)
 832. specs-dev (vaayne/cc-plugins) - ✅ Clean (Review-gated workflow, session tracking)
+
+### Agent/Workflow Skills (New - 2026-01-19)
+833. moai-alfred-workflow (AJBcoding/claude-skill-eval) - ✅ Clean (Multi-agent orchestration, TRUST principles)
