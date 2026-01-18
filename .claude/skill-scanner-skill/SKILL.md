@@ -1,5 +1,5 @@
 ---
-name: skill-scanner
+name: skill-scanner-skill
 description: |
   Scan SKILL.md files for security vulnerabilities and malicious patterns.
   Use when: (1) reviewing skills before installation, (2) auditing existing skills,
