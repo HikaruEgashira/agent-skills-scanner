@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 641
+- Total skills scanned: 644
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -951,6 +951,11 @@ Last updated: 2026-01-19T01:00:00.000Z
 640. nestjs-module-generator (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - Bash wildcard permissions, dev tooling)
 641. ai-model-nodejs (TencentCloudBase/CloudBase-MCP) - ✅ Clean (CloudBase AI SDK, text/image generation)
 
+### Python/Django Backend Skills (New - 2026-01-19)
+642. django-drf (Gentleman-Programming/Gentleman.Dots) - ✅ Clean (DRF ViewSets, serializers, permissions patterns)
+643. python-development (skillcreatorai/Ai-Agent-Skills) - ✅ Clean (Python 3.12+, FastAPI, async patterns, pytest)
+644. tech-stack-detection (rsmdt/the-startup) - ✅ Clean (Auto-detect React/Vue/Django/Express frameworks)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -1045,3 +1050,4 @@ Categories scanned in this iteration:
 - 3D Graphics & WebGL (1 skill)
 - WebAssembly & WASM (5 skills)
 - NestJS Backend (2 skills)
+- Python/Django Backend (3 skills)
