@@ -1,8 +1,8 @@
 # Scanned Skills Progress
-Last updated: 2026-01-18T12:00:00.000Z
+Last updated: 2026-01-18T12:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 92
+- Total skills scanned: 98
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -114,12 +114,12 @@ Last updated: 2026-01-18T12:00:00.000Z
 75. uniprot-database (davila7/claude-code-templates) - ✅ Clean
 76. statistical-analysis (davila7/claude-code-templates) - ✅ Clean
 
-### Game Development Category (New - 2026-01-18)
+### Game Development Category
 77. unity-ecs-patterns (wshobson/agents) - ✅ Clean
 78. godot-gdscript-patterns (wshobson/agents) - ✅ Clean (False positive: hardcoded key placeholder)
 79. context-engineering-collection (muratcankoylan/Agent-Skills-for-Context-Engineering) - ✅ Clean
 
-### Data Engineering Category (New - 2026-01-18)
+### Data Engineering Category
 80. airflow-dag-patterns (wshobson/agents) - ✅ Clean
 81. spark-optimization (wshobson/agents) - ✅ Clean
 82. dbt-transformation-patterns (wshobson/agents) - ✅ Clean
@@ -127,7 +127,7 @@ Last updated: 2026-01-18T12:00:00.000Z
 84. sql-optimization-patterns (wshobson/agents) - ✅ Clean
 85. ml-pipeline-workflow (wshobson/agents) - ✅ Clean
 
-### Containers & DevOps Category (New - 2026-01-18)
+### Containers & DevOps Category
 86. gitops-workflow (wshobson/agents) - ✅ Clean
 87. grafana-dashboards (wshobson/agents) - ✅ Clean
 88. istio-traffic-management (wshobson/agents) - ✅ Clean
@@ -135,6 +135,16 @@ Last updated: 2026-01-18T12:00:00.000Z
 90. prometheus-configuration (wshobson/agents) - ✅ Clean
 91. deployment-pipeline-design (wshobson/agents) - ✅ Clean
 92. gitlab-ci-patterns (wshobson/agents) - ✅ Clean
+
+### Machine Learning Category (New - 2026-01-18)
+93. prompt-engineering-patterns (wshobson/agents) - ✅ Clean
+94. llm-evaluation (wshobson/agents) - ✅ Clean
+95. embedding-strategies (wshobson/agents) - ✅ Clean
+
+### Academic & Research Category (New - 2026-01-18)
+96. hybrid-search-implementation (wshobson/agents) - ✅ Clean
+97. content-research-writer (ComposioHQ/awesome-claude-skills) - ✅ Clean
+98. scientific-critical-thinking (davila7/claude-code-templates) - ✅ Clean
 
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
@@ -166,6 +176,5 @@ All scanned skills appear to be legitimate and do not contain obvious security v
 The skills from major open source projects follow best practices.
 
 Categories scanned in this iteration:
-- Game Development (3 skills)
-- Data Engineering (6 skills)
-- Containers & DevOps (7 skills)
+- Machine Learning (3 skills)
+- Academic & Research (3 skills)
