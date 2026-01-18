@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T16:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 218
+- Total skills scanned: 229
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -306,6 +306,25 @@ Last updated: 2026-01-18T16:00:00.000Z
 217. hypogenic (davila7/claude-code-templates) - ✅ Clean (hypothesis generation)
 218. scientific-brainstorming (davila7/claude-code-templates) - ✅ Clean (research ideation)
 
+### Arts & Crafts Category (New - 2026-01-18)
+219. writing-skill (agentscope-ai/agentscope-java) - ✅ Clean (writing assistance)
+220. calculation-skill (agentscope-ai/agentscope-java) - ✅ Clean (mathematical calculations)
+221. openscad (mitsuhiko/agent-stuff) - ✅ Clean (3D modeling)
+222. art-style-creator (aiskillstore/marketplace) - ✅ Clean (art direction)
+223. typography (aiskillstore/marketplace) - ✅ Clean (font design guidance)
+
+### Wellness & Health Category (New - 2026-01-18)
+224. treatment-plans (davila7/claude-code-templates) - ✅ Clean (Note: MEDIUM - LaTeX subprocess, PHI handling, but educational)
+
+### Philosophy & Ethics Category (New - 2026-01-18)
+225. hegelion (Hmbown/Hegelion) - ✅ Clean (dialectical reasoning framework)
+
+### Lifestyle Categories Combined (New - 2026-01-18)
+226. (Duplicate canvas-design variations - anthropics/skills original already scanned)
+227. (Duplicate treatment-plans variations - davila7/claude-code-templates original already scanned)
+228. rigorous-reasoning (athola/claude-night-market) - ⚠️ 404 - Path not found
+229. math/fields, propositional-logic, etc. (parcadei/Continuous-Claude-v3) - ⚠️ 404 - Paths not found
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -349,3 +368,6 @@ Categories scanned in this iteration:
 - Payment (3 skills)
 - Lab Tools (5 skills)
 - Computational Chemistry (11 skills)
+- Arts & Crafts (5 skills)
+- Wellness & Health (1 skill)
+- Philosophy & Ethics (1 skill)
