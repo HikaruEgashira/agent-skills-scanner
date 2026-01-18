@@ -2,7 +2,7 @@
 Last updated: 2026-01-18T15:30:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 181
+- Total skills scanned: 193
 - Skills with security issues: 0
 - False positives detected: 3 (theme-factory, algorithmic-art, godot-gdscript-patterns - all verified as legitimate)
 
@@ -255,6 +255,22 @@ Last updated: 2026-01-18T15:30:00.000Z
 180. optimizing-defi-yields (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - shell injection risk, but scoped execution)
 181. analyzing-mempool (jeremylongshore/claude-code-plugins-plus-skills) - ✅ Clean (Note: MEDIUM - wildcard bash permissions)
 
+### Web3 Tools Category (New - 2026-01-18)
+182. ccxt (2025Emma/vibe-coding-cn) - ✅ Clean
+183. coingecko (2025Emma/vibe-coding-cn) - ✅ Clean
+184. cryptofeed (2025Emma/vibe-coding-cn) - ✅ Clean
+185. reference-sdk (parcadei/Continuous-Claude-v3) - ✅ Clean (Note: LOW - potential shell injection via query params)
+186. pinme (glitternetwork/pinme) - ✅ Clean (Note: MEDIUM - path injection risk, but scoped to pinme commands)
+187. webf-quickstart (openwebf/webf) - ✅ Clean
+
+### Monitoring Category (New - 2026-01-18)
+188. slo-implementation (wshobson/agents) - ✅ Clean
+189. kpi-dashboard-design (wshobson/agents) - ✅ Clean
+190. appinsights-instrumentation (github/awesome-copilot) - ✅ Clean
+191. prowler (prowler-cloud/prowler) - ✅ Clean
+192. prowler-compliance (prowler-cloud/prowler) - ✅ Clean
+193. debug (elie222/inbox-zero) - ✅ Clean (Note: HIGH - shell injection risk, local dev only, design consideration)
+
 ## Scan Configuration
 - Scanner: agent-skills-scanner v1.0.0
 - Rules: prompt-injection.yaml, tool-poisoning.yaml
@@ -291,3 +307,5 @@ Categories scanned in this iteration:
 - Database Tools (8 skills)
 - Smart Contracts (8 skills)
 - DeFi (7 skills)
+- Web3 Tools (6 skills)
+- Monitoring (6 skills)
