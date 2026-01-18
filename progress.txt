@@ -2,7 +2,7 @@
 Last updated: 2026-01-19T01:00:00.000Z
 
 ## Scan Summary
-- Total skills scanned: 675
+- Total skills scanned: 688
 - Total skills on skillsmp.com: 71,577
 - Coverage: ~0.9% of marketplace (representative sample from all major categories)
 - Skills with security issues: 0
@@ -1100,3 +1100,21 @@ Categories scanned in this iteration:
 - Game Development Extended (3 skills)
 - Rust Development Extended (4 skills)
 - TimescaleDB/PostgreSQL Extended (3 skills)
+- Redis & Kubernetes/DevOps (13 skills)
+
+### Redis Skills (New - 2026-01-19)
+676. redis-inspect (civitai/civitai) - ✅ Clean (Redis read-only debugging, write operations require explicit approval)
+
+### Kubernetes/DevOps Extended Skills (New - 2026-01-19)
+677. k8s-troubleshoot (XiaoMi/mone) - ✅ Clean (K8s troubleshooting toolkit, pod search and exec diagnostics)
+678. gitops-workflow (wshobson/agents) - ✅ Clean (ArgoCD, Flux CD GitOps implementation)
+679. helm-chart-scaffolding (wshobson/agents) - ✅ Clean (Helm chart creation and management)
+680. k8s-manifest-generator (wshobson/agents) - ✅ Clean (Production K8s manifests, security-first design)
+681. k8s-security-policies (wshobson/agents) - ✅ Clean (Pod Security Standards, NetworkPolicy, RBAC)
+682. grafana-dashboards (wshobson/agents) - ✅ Clean (Grafana dashboard design, monitoring best practices)
+683. prometheus-configuration (wshobson/agents) - ✅ Clean (Prometheus setup, TLS, authentication guidance)
+684. deployment-pipeline-design (wshobson/agents) - ✅ Clean (CI/CD pipeline architecture, approval gates)
+685. gitlab-ci-patterns (wshobson/agents) - ✅ Clean (GitLab CI/CD, security scanning integration)
+686. secrets-management (wshobson/agents) - ✅ Clean (Vault, AWS Secrets Manager, credential handling)
+687. istio-traffic-management (wshobson/agents) - ✅ Clean (Istio service mesh, routing, mTLS)
+688. linkerd-patterns (wshobson/agents) - ✅ Clean (Linkerd service mesh, zero-trust networking)
